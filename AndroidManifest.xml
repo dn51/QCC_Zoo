@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
+    package="com.example.myapplication"
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10">
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="29" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <uses-permission-sdk-23
+        android:name="android.permission.INTERNET" />
+
+    <application
+        android:theme="@ref/0x7f0f0006"
+        android:label="@ref/0x7f0e001c"
+        android:icon="@ref/0x7f0c0000"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@ref/0x7f0c0003"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+
+        <activity
+            android:name="com.example.myapplication.Main14Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main13Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main12Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main11Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main10Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main9Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main8Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main7Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main6Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main5Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main4Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main3Activity" />
+
+        <activity
+            android:name="com.example.myapplication.Main2Activity" />
+
+        <activity
+            android:name="com.example.myapplication.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
